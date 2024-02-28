@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .testimonial-container {
+    background-color: #f5f5f5;
+	margin:40px 40px 40px 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 10px;
+  }
+  
+  .testimonial p {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    text-align: right;
+    font-style: italic;
+  }
